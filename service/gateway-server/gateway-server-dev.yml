@@ -141,3 +141,34 @@ eureka:
 
 server:
   port: 8168
+
+client-security-matchers: >
+  /login/**,
+  /oauth2/**,
+  /logout/**,
+  /en/**,
+  /auth/**,
+  /business/**,
+  /profile/**,
+  /contents/**,
+  /users/**,
+  /media/**,
+  /identity/**
+
+client-permit-matchers: >
+  /contents/**,
+  /media/**,
+  /users/**,
+  /login/**,
+  /oauth2/**,
+  /en/**,
+  /auth/**,
+  /contactSupport/**,
+  /error/**,
+  /actuator/**,
+  /info/**,
+  /health/**,
+  /prometheus/**,
+  /business/**,
+  /profile/**,
+  /identity/**
