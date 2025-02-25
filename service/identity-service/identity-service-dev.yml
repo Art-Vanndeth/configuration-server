@@ -73,7 +73,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
-code-advisors:
+web-app:
   ip: 127.0.0.1
   port: 8168
 

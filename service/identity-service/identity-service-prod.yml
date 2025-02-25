@@ -3,7 +3,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: https://identity.code-advisors.istad.co
+          issuer-uri: https://identity.web-app.istad.co
       client:
         registration:
           google:
@@ -84,15 +84,15 @@ eureka:
     # fetchRegistry: true
     # registerWithEureka: true
     serviceUrl:
-      defaultZone: http://code-advisors-eureka-server:8761/eureka
+      defaultZone: http://web-app-eureka-server:8761/eureka
 
 
-code-advisors:
+web-app:
   ip: 202.178.125.77
   port: 1168
 
 redirect:
-  url: https://code-advisors.istad.co/
+  url: https://web-app.istad.co/
 
 issuer:
-  url: https://identity.code-advisors.istad.co
+  url: https://identity.web-app.istad.co
